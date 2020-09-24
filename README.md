@@ -18,11 +18,8 @@ The back to top button in action:
 
 ![Screenshots](https://raw.githubusercontent.com/stuebersystems/gitbook-plugin-back-to-top-button/master/screenshots.png)
 
+
 ## Changelog
 
-* 0.1.0 Releases:
-  * 0.1.0 First working release
-  * 0.1.1 Minimal Gitbook version changed to 3.1.1
-  * 0.1.2 Added link to GitHub repository 
-  * 0.1.3 Added support for GitBook themes (White, Sepia, Night)
-  * 0.1.4 Changes in README
+
+* 0.1.4 First release as honkit-plugin-back-to-top-button
