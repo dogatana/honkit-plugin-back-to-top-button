@@ -24,12 +24,16 @@ You can choose button glyph like following.
 
 ### Use another FontAwesome icon
 
+`book.json`
+
 ```json
     "pluginsConfig": {
         "back-to-top-button": {
             "icon": "<i class='fa fa-angle-up'></i>"
         }
 ```
+
+`style sheet`
 
 ```css
 .back-to-top i {
@@ -40,7 +44,9 @@ You can choose button glyph like following.
 
 ```
 
-### Use another FontAwesome icon
+### Use text label
+
+`book.json`
 
 ```json
     "pluginsConfig": {
@@ -49,6 +55,8 @@ You can choose button glyph like following.
         }
     }
 ```
+
+`style sheet`
 
 ```css
 .back-to-top span {
@@ -62,4 +70,4 @@ You can choose button glyph like following.
 ## Changelog
 
 
-* 0.1.4 First release as honkit-plugin-back-to-top-button
+* 0.2.0 First release as honkit-plugin-back-to-top-button
