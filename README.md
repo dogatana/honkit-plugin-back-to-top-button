@@ -18,6 +18,44 @@ The back to top button in action:
 
 ![Screenshots](https://raw.githubusercontent.com/stuebersystems/gitbook-plugin-back-to-top-button/master/screenshots.png)
 
+## Configuration
+
+You can choose button glyph like following.
+
+### Use another FontAwesome icon
+
+```json
+    "pluginsConfig": {
+        "back-to-top-button": {
+            "icon": "<i class='fa fa-angle-up'></i>"
+        }
+```
+
+```css
+.back-to-top i {
+    font-size: 35px;
+    top: 7px;
+    left: 14px;
+}
+
+```
+
+```json
+    "pluginsConfig": {
+        "back-to-top-button": {
+            "icon": "<span>TOP</span>"
+        }
+    }
+```
+
+```css
+.back-to-top span {
+    position: relative;
+    color: white;
+    top: 16px;
+    left: 11px;
+}
+```
 
 ## Changelog
 
