@@ -1,10 +1,13 @@
 ﻿{
 	"name": "honkit-plugin-back-to-top-button",
-	"version": "0.1.5",
+	"version": "0.2.0",
 	"description": "Adds a back to top button to your Honkit",
     "main": "index.js",
     "license": "Apache-2.0",
-    "author": "Toshihiko Ichida <dogatana@gmail.com>",
+    "authors": [
+        "STÜBER SYSTEMS <gitbook@stueber.de>",
+        "dogatana <dogatana@gmail.com>"
+    ],
     "engines": {
         "gitbook": ">=3.1.1"
     },
