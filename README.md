@@ -16,7 +16,7 @@ Add the plugin to your `book.json`:
 
 The back to top button in action:
 
-![Screenshots](https://raw.githubusercontent.com/stuebersystems/honkit-plugin-back-to-top-button/master/screenshots.png)
+![Screenshots](screenshots.png)
 
 ## Configuration
 
