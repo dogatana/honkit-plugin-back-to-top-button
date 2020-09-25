@@ -1,6 +1,6 @@
-# Gitbook Back to Top Button Plugin [![npm version](https://badge.fury.io/js/gitbook-plugin-back-to-top-button.svg)](https://badge.fury.io/js/gitbook-plugin-back-to-top-button)
+# Honkit Back to Top Button Plugin [![npm version](https://badge.fury.io/js/honkit-plugin-back-to-top-button.svg)](https://badge.fury.io/js/honkit-plugin-back-to-top-button)
 
-This plugin adds a back to top button to your GitBook. All three GitBook themes (White, Sepia, Night) are supported.
+This plugin adds a back to top button to your Honkit. All three Honkit themes (White, Sepia, Night) are supported.
 
 ## Usage
 
@@ -16,7 +16,7 @@ Add the plugin to your `book.json`:
 
 The back to top button in action:
 
-![Screenshots](https://raw.githubusercontent.com/stuebersystems/gitbook-plugin-back-to-top-button/master/screenshots.png)
+![Screenshots](https://raw.githubusercontent.com/stuebersystems/honkit-plugin-back-to-top-button/master/screenshots.png)
 
 ## Configuration
 
@@ -39,6 +39,8 @@ You can choose button glyph like following.
 }
 
 ```
+
+### Use another FontAwesome icon
 
 ```json
     "pluginsConfig": {
