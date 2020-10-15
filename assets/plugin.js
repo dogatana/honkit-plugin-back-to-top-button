@@ -7,7 +7,7 @@ window.gitbook.events.bind('start', function(e, config) {
     if (config[plugin] && config[plugin]['icon']) {
         icon = config[plugin]['icon'];
     }
-    button_html = `<div class="back-to-top">${icon}</i></div>`;
+    button_html = '<div class="back-to-top">' + icon + '</i></div>';
 });
 
 window.gitbook.events.on('page.change', function() {
