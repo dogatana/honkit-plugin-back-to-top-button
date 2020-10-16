@@ -18,15 +18,21 @@ The back to top button in action:
 
 ![Screenshots](screenshots.png)
 
-## Configuration
+## Fork of gitbook-plugin-back-to-top-button
+
+honkit-plugin-back-to-top is a fork of https://github.com/stuebersystems/gitbook-plugin-back-to-top-button
+
+This plugin has more features to customize.
+
+### icon
 
 You can choose button glyph like following.
 
-### Use another FontAwesome icon
+#### Use another FontAwesome icon
 
 `book.json`
 
-```json
+```js
     "pluginsConfig": {
         "back-to-top-button": {
             "icon": "<i class='fa fa-angle-up'></i>"
@@ -44,11 +50,11 @@ You can choose button glyph like following.
 
 ```
 
-### Use text label
+#### Use text label
 
 `book.json`
 
-```json
+```js
     "pluginsConfig": {
         "back-to-top-button": {
             "icon": "<span>TOP</span>"
@@ -67,7 +73,15 @@ You can choose button glyph like following.
 }
 ```
 
-## Changelog
+### animation time
 
+You can specify animation time from bottom to top.
+Default valus is 800 miliseconds.
 
-* 0.2.0 First release as honkit-plugin-back-to-top-button
+```js
+    "pluginsConfig": {
+        "back-to-top-button": {
+            "animate": 100;
+        }
+    }
+```
