@@ -12,7 +12,7 @@ window.gitbook.events.bind('start', function(e, config) {
             icon = config[plugin]['icon'];
         }
         if (config[plugin]['animate']) {
-            const time = parseInt(config[plugin]['animate'], 10);
+            const time = Number(config[plugin]['animate']);
             if (!isNaN(time) && time >= 0) {
                 animateTime = time;
             }
