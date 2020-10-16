@@ -1,11 +1,22 @@
 let button_html;
+let animateTime;
 
 // create button html at start
 window.gitbook.events.bind('start', function(e, config) {
     const plugin = 'back-to-top-button';
     let icon = '<i class="fa fa-arrow-up"></i>';
-    if (config[plugin] && config[plugin]['icon']) {
-        icon = config[plugin]['icon'];
+
+    // check configuration
+    if (config && config[plugin]) {
+        if (config[plugin]['icon']) {
+            icon = config[plugin]['icon'];
+        }
+        if (config[plugin]['animate']) {
+            const time = parseInt(config[plugin]['animate'], 10);
+            if (!isNaN(time) && time >= 0) {
+                animateTime = time;
+            }
+        }
     }
     button_html = '<div class="back-to-top">' + icon + '</i></div>';
 });
@@ -25,7 +36,7 @@ window.gitbook.events.on('page.change', function() {
 	$('.back-to-top').click(function () {
 		$('.book-body,.body-inner').animate({
 			scrollTop: 0
-		}, 800);
+		}, animateTime);
 		return false;
 	});
 });
