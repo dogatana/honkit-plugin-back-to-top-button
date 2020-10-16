@@ -1,4 +1,4 @@
-let button_html;
+let buttonHtml;
 let animateTime;
 
 // create button html at start
@@ -18,11 +18,11 @@ window.gitbook.events.bind('start', function(e, config) {
             }
         }
     }
-    button_html = '<div class="back-to-top">' + icon + '</i></div>';
+    buttonHtml = '<div class="back-to-top">' + icon + '</i></div>';
 });
 
 window.gitbook.events.on('page.change', function() {
-    $(".book").append(button_html);
+    $(".book").append(buttonHtml);
     $(".back-to-top").hide();
 
 	$('.book-body,.body-inner').on('scroll', function () {
