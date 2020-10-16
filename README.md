@@ -75,9 +75,10 @@ You can choose button glyph like following.
 
 ### animation time
 
-You can specify animation time from bottom to top.
-Default valus is 800 miliseconds.
+You can specify animation time to move from bottom to top.
+Default value is 800 miliseconds.
 
+`book.json`
 ```js
     "pluginsConfig": {
         "back-to-top-button": {
