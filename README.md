@@ -1,4 +1,4 @@
-# Honkit Back to Top Button Plugin [![npm version](https://badge.fury.io/js/honkit-plugin-back-to-top-button.svg)](https://badge.fury.io/js/honkit-plugin-back-to-top-button)
+# Honkit Back to Top Button Plugin 
 
 This plugin adds a back to top button to your Honkit. All three Honkit themes (White, Sepia, Night) are supported.
 
