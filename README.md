@@ -8,7 +8,7 @@ Add the plugin to your `book.json`:
 
 ```
 {
-	"plugins" : [ "back-to-top-button" ]
+	"plugins" : [ "@dogatana/back-to-top-button" ]
 }		
 ```
 
